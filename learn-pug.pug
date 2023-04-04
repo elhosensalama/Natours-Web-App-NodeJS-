@@ -1,0 +1,17 @@
+doctype html 
+html 
+    head 
+
+        // title= title 
+        //- OR
+        title #{title} Title
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="shortcut icon", href="img/favicon.png", type="image/x-icon")
+
+    body 
+        h1 The Park Camper 
+        p this is just some text
+        // Unbuffer Code
+        - const x = 5;
+        // Buffer Code
+        span= 10 * x
